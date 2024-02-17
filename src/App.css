@@ -1,18 +1,25 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 90px 0 0;
     color: #004953;
 }
 
 h1 {
     font-size: 35px;
     margin: 0;
-    padding: 32px 38px;
     color: white;
 }
 
 .header {
     background-color: #004953;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding-left: 38px;
 }
 
 p {
