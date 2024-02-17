@@ -1,6 +1,6 @@
 import './App.css';
 import apartment from './images/apartment.jpeg';
-import Header from "./components/Header";
+import Header from "./components/header/Header";
 import Menu from "./components/headerMenu/Menu";
 import Catalog from "./components/catalog/Catalog";
 import Footer from "./components/footer/Footer";
