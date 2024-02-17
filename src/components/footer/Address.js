@@ -6,9 +6,9 @@ const Address = ({companyAddress}) => {
         <div>
             <h3>Contacts:</h3>
             <p>{companyAddress.address}</p>
-            <p>{companyAddress.zip}</p>
+            <p>ZIP: {companyAddress.zip}</p>
             <p>{companyAddress.email}</p>
-            <p>{companyAddress.phoneNumber}</p>
+            <p>Manager: {companyAddress.phoneNumber}</p>
         </div>
     )
 };

@@ -4,7 +4,7 @@ import CatalogItem from "./CatalogItem";
 const catalogWrapper = {
     marginTop: '10px',
     paddingTop: '10px',
-    boxShadow: '4px 4px 10px -4px rgba(34, 60, 80, 0.2) inset',
+    boxShadow: '4px 4px 10px -4px rgba(15, 92, 85, 0.2) inset',
 }
 const catalogStyle = {
     display: 'grid',
