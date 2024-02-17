@@ -4,7 +4,7 @@ const MenuItem = ({menuItem}) => {
 
     return (
 
-        <div className='menuItemStyle'>
+        <div className='menu-item-style'>
             {menuItem}
         </div>
     );

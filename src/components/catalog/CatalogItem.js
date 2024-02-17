@@ -1,7 +1,7 @@
 import React from 'react';
 
 const catalogItemStyle = {
-    minWidth: '230px',
+    minWidth: '200px',
     textAlign: 'center',
     padding: '5px',
     display: 'flex',
