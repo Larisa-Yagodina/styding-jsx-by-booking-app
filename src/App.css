@@ -44,6 +44,7 @@ p {
 .menuItemStyle {
     padding-right: 25px;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .menuItemStyle:hover {
@@ -70,6 +71,7 @@ button {
     background-color: #e7eeef;
     color: #004953;
     font-weight: bold;
+    cursor: pointer;
 }
 
 button:hover {
