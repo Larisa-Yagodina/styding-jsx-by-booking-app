@@ -1,7 +1,12 @@
-.body,
-h1 {
+body {
     margin: 0;
-    padding: 32px;
+    padding: 0;
+}
+
+h1 {
+    font-size: 35px;
+    margin: 0;
+    padding: 32px 38px;
     color: white;
 }
 
@@ -22,6 +27,16 @@ p {
     margin: 7px;
 }
 
+.content {
+    padding-left: 20px;
+    background-color: #F5F5F5;
+}
+
+.headerMenuWrapper {
+    background-color: #F5F5F5;
+    padding-left: 20px;
+}
+
 .menuStyle {
     padding-top: 30px;
     display: flex;
@@ -29,6 +44,7 @@ p {
 
 .menuItemStyle {
     padding-right: 25px;
+    font-size: 16px;
 }
 
 .menuItemStyle:hover {
@@ -58,5 +74,6 @@ button {
 button:hover {
     opacity: 0.7;
 }
+
 
 

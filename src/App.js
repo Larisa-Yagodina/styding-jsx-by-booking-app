@@ -99,7 +99,7 @@ const serverData = [
 ]
 
 function App() {
-    const appTitle = 'Booking app';
+    const appTitle = 'Booking App';
     const appMenu = ['Home', 'Air tickets', 'Accommodation', 'Leisure options', 'Car rental'];
     const footerMenu = ['About us', 'Contact us', 'Policy', 'Terms'];
     const accommodation = serverData;
@@ -129,9 +129,8 @@ function App() {
 
     return (
         <div>
-
             <Header appTitle={appTitle}/>
-            <div style={{padding: '0 35px', backgroundColor: '#F5F5F5'}}>
+            <div className='content'>
                 <Menu menu={appMenu}/>
                 <Catalog accommodation={accommodation}/>
             </div>
