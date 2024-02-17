@@ -6,6 +6,7 @@ const footerStyle = {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-evenly',
+    height: '200px',
 };
 
 const Footer = ({companyAddress, footerMenu}) => {

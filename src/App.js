@@ -112,13 +112,16 @@ function App() {
 
     const renderCallOrder = () => {
         return (
-            <div style={{textAlign: 'center', borderTop: "1px solid grey", borderBottom: "1px solid grey", padding: '10px'}}>
+            <div style={{
+                textAlign: 'center',
+                borderTop: "1px solid grey",
+                borderBottom: "1px solid grey",
+                padding: '10px'
+            }}>
                 <input
-                    style={{padding: '10px', width: '40%', margin: '10px'}}
                     type="number" placeholder='input your phone number and we`ll call you back'/>
-                <button
-                    style={{padding: '10px'}}
-                >Order a call
+                <button>
+                    Order a call
                 </button>
             </div>
         )

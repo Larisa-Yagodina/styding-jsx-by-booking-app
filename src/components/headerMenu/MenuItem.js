@@ -1,12 +1,10 @@
 import React from 'react';
 
-const menuItemStyle = {
-    paddingRight: '25px',
-};
 const MenuItem = ({menuItem}) => {
 
     return (
-        <div style={menuItemStyle}>
+
+        <div className='menuItemStyle'>
             {menuItem}
         </div>
     );
